@@ -1,0 +1,13 @@
+service: endangered-species-facts
+
+frameworkVersion: ">=1.4.0 <2.0.0"
+
+provider:
+  name: aws
+  runtime: python3.7
+
+functions:
+  luckyNumber:
+    handler: handler.main
+    events:
+      - alexaSkill
