@@ -1,13 +1,17 @@
 service: endangered-species-facts
-
+stage: dev
+region: us-east-1
 frameworkVersion: ">=1.4.0 <2.0.0"
 
 provider:
   name: aws
   runtime: python3.7
+plugins:
+  - serverless-python-requirements
 
 functions:
-  luckyNumber:
+  main:
     handler: handler.main
     events:
-      - alexaSkill
+      - alexaSkill: amzn1.ask.skill.69a315cb-f74b-43b7-83ff-bc898a095d40
+
