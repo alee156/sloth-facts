@@ -1,7 +1,7 @@
 # :paw_prints: Endangered Species Facts 
 An Alexa skill that gives interesting facts about endangered species and attempts to bring more attention to them.
 
-[![Enable This Skill](https://dabuttonfactory.com/button.png?t=Enable+This+Skill&f=Calibri-Bold&ts=24&tc=fff&tshs=1&tshc=000&hp=20&vp=8&c=5&bgt=gradient&bgc=0ff&ebgc=187cd8&shs=1&shc=444&sho=s)](https://www.amazon.com/Jonathan-Porter-Endangered-Species-Facts/dp/B07L6HX7SK/ref=sr_1_1?keywords=endangered+species&qid=1551154150&s=digital-skills&sr=1-1-catcorr)
+[![Enable This Skill](https://dabuttonfactory.com/button.png?t=Enable+This+Skill&f=Calibri-Bold&ts=24&tc=fff&tshs=1&tshc=000&hp=20&vp=8&c=5&bgt=gradient&bgc=0ff&ebgc=187cd8&shs=1&shc=444&sho=s)](http://bit.ly/ALEXAESF)
 
 ## :wave: [Contribute interesting facts here](https://airtable.com/shrWUQJ7pjSDDgip5)
 
