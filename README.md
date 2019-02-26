@@ -23,7 +23,7 @@ In order to get started you will need to create an alexa developer account and a
 * [Amazon Web Services (AWS)](https://aws.amazon.com/)
 
 ## Setting up Alexa Skill
-
+TODO
 
 ## Setting up AWS
 1. Install [Serverless](https://serverless.com/)
