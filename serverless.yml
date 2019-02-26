@@ -17,5 +17,5 @@ functions:
     handler: fulfillment/handler.main
     description: Endpoint that takes POST requests for Endangered Species Facts Alexa skill.
     events:
-      - alexaSkill: amzn1.ask.skill.69a315cb-f74b-43b7-83ff-bc898a095d40
+      - alexaSkill: # Skill ID here. E.g. amzn1.ask.skill.xx-xx-xx-xx
 
