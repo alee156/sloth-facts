@@ -1,3 +1,6 @@
+# For full config options, check the docs:
+#    docs.serverless.com
+
 service: endangered-species-facts
 stage: dev
 region: us-east-1
@@ -11,7 +14,8 @@ plugins:
 
 functions:
   main:
-    handler: handler.main
+    handler: fulfillment/handler.main
+    description: Endpoint that takes POST requests for Endangered Species Facts Alexa skill.
     events:
       - alexaSkill: amzn1.ask.skill.69a315cb-f74b-43b7-83ff-bc898a095d40
 
