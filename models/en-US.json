@@ -1,0 +1,50 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "endangered species facts",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetNewFactIntent",
+                    "slots": [],
+                    "samples": [
+                        "a fact",
+                        "an endangered species fact",
+                        "tell me a fact",
+                        "tell me an endangered species fact",
+                        "give me an endangered species fact",
+                        "give me an endangered fact",
+                        "tell me trivia",
+                        "tell me an endangered species trivia",
+                        "give me trivia",
+                        "give me an endangered species trivia",
+                        "give me some information",
+                        "give me some endangered species information",
+                        "tell me something",
+                        "give me something"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}
