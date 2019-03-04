@@ -23,7 +23,10 @@ In order to get started you will need to create an alexa developer account and a
 * [Amazon Web Services (AWS)](https://aws.amazon.com/)
 
 ## Setting up Alexa Skill
-TODO
+
+Simply copy the models under interaction_models into the JSON Editor underneath intents in your alexa developer account. Don't forget to click on save and build model!
+
+For more information read [here](https://developer.amazon.com/docs/devconsole/build-your-skill.html#custom-model).
 
 ## Setting up AWS
 1. Install [Serverless](https://serverless.com/)
