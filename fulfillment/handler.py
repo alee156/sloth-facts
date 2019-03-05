@@ -35,35 +35,35 @@ EXCEPTION_MESSAGE = "Sorry. I cannot help you with that."
 
 
 data = [
-  "The Blue Whale is the largest animal ever to have lived on earth.",
-  "The Blue Whale's tongue alone can weigh as much as an elephant - its heart, as much as a car.",
-  "Despite being so massive, the blue whale feeds on some of the smallest marine life – tiny shrimp like animals called krill.",
-  "A single adult blue whale can consume 36,000 kg of krill a day.",
-  "Incredibly, Blue Whales are graceful swimmers cruise the ocean at over 8km/h, and can reach speeds of over 30km/h.",
-  "Though we can’t hear them, blue whales are one of the loudest animals on the planet, communicating with each other using a series of low frequency pulses, groans, and moans.",
-  "It is thought that in good conditions blue whales can hear each other across distances of up to 1,600km.",
-  "Researchers have proven that chimpanzees are self-aware and can anticipate the impact of their actions on the environment around them, an ability once thought to be uniquely human.",
-  "Chimpanzees have been shown to have their own individual personalities.",
-  "Chimpanzees behave in a way indicating that they feel empathy.",
-  "Chimpanzees travel mostly on the ground but will mostly feed in trees during the day and make a new nest every night in the forest canopy to sleep.",
-  "Chimpanzees are capable of learning basic human sign language.",
-  "Chimpanzees have opposable thumbs and toes that allow for grasping, climbing, and object manipulation.",
-  "Chimpanzees are very dexterous and are able to manipulate objects in their environment in order to fashion and use tools.",
-  "Baby female chimps were recently discovered playing with sticks like human children play with dolls.",
-  "Chimpanzees have the same bones and muscles as humans with differences only in form (e.g. their arms are longer than their legs).",
-  "Because of their dense bones and muscle tissue, the upper body strength of a mature chimpanzee is 8-10 times that than that of humans.",
-  "The Tiger's beautiful orange and black striped coats provide camouflage when hunting prey at night when they can reach speeds of 40 miles per hour.",
-  "Tigers are native to Asia, but their range today is much smaller than it used to be, and includes South-east Asia, India, western China, and some parts of Russia.",
-  "In terms of habitat, tigers inhabit a range of environments, but generally prefer areas with dense cover, like forests, with access to water and plenty of prey.",
-  "Tiger dens are positioned in secluded areas such as in caves, among dense vegetation or in hollow trees.",
-  "Tigers are powerful apex predators that are at the top of the food chain and capable of killing animals over twice their size.",
-  "Tigers are nocturnal hunters and will travel many miles to prey on a variety of animals including deer, buffalo and wild boar; native ungulates are the favourite.",
-  "Tigers are solitary, living alone in scent-marked territories that vary in size depending on the availability of prey.",
-  "No two tigers have the same stripes, enabling individuals to be identified by their unique pattern of stripes.",
-  "Unlike other cats, tigers are good swimmers and often cool off in lakes and streams during the heat of the day.",
-  "Three sub-species of tiger are already extinct and one species, the South China tiger, is thought only to survive in captivity.",
-  "Some the biggest threats to the Tigers' survival include illegal poaching, loss of habitat due to agriculture and urbanisation, and reduction in prey availability.",
-  "Like humans, orangutans have opposable thumbs. Their big toes are also opposable. Unlike humans, approximately one third of all orangutans do not have nails on their big toes.",
+  "The Blue Whale is the largest animal ever to have lived on earth. ",
+  "The Blue Whale's tongue alone can weigh as much as an elephant - its heart, as much as a car. ",
+  "Despite being so massive, the blue whale feeds on some of the smallest marine life – tiny shrimp like animals called krill. ",
+  "A single adult blue whale can consume 36,000 kg of krill a day. ",
+  "Incredibly, Blue Whales are graceful swimmers who cruise the ocean at over 8km/h, and can reach speeds of over 30km/h. ",
+  "Though we can’t hear them, blue whales are one of the loudest animals on the planet, communicating with each other using a series of low frequency pulses, groans, and moans. ",
+  "It is thought that in good conditions blue whales can hear each other across distances of up to 1,600km. ",
+  "Researchers have proven that chimpanzees are self-aware and can anticipate the impact of their actions on the environment around them, an ability once thought to be uniquely human. ",
+  "Chimpanzees have been shown to have their own individual personalities. ",
+  "Chimpanzees behave in a way indicating that they feel empathy. ",
+  "Chimpanzees travel mostly on the ground but will mostly feed in trees during the day and make a new nest every night in the forest canopy to sleep. ",
+  "Chimpanzees are capable of learning basic human sign language. ",
+  "Chimpanzees have opposable thumbs and toes that allow for grasping, climbing, and object manipulation. ",
+  "Chimpanzees are very dexterous and are able to manipulate objects in their environment in order to fashion and use tools. ",
+  "Baby female chimps were recently discovered playing with sticks like human children play with dolls. ",
+  "Chimpanzees have the same bones and muscles as humans with differences only in form (e.g. their arms are longer than their legs). ",
+  "Because of their dense bones and muscle tissue, the upper body strength of a mature chimpanzee is 8-10 times that than that of humans. ",
+  "The Tiger's beautiful orange and black striped coats provide camouflage when hunting prey at night when they can reach speeds of 40 miles per hour. ",
+  "Tigers are native to Asia, but their range today is much smaller than it used to be, and includes South-east Asia, India, western China, and some parts of Russia. ",
+  "In terms of habitat, tigers inhabit a range of environments, but generally prefer areas with dense cover, like forests, with access to water and plenty of prey. ",
+  "Tiger dens are positioned in secluded areas such as in caves, among dense vegetation or in hollow trees. ",
+  "Tigers are powerful apex predators that are at the top of the food chain and capable of killing animals over twice their size. ",
+  "Tigers are nocturnal hunters and will travel many miles to prey on a variety of animals including deer, buffalo and wild boar; native ungulates are the favourite. ",
+  "Tigers are solitary, living alone in scent-marked territories that vary in size depending on the availability of prey. ",
+  "No two tigers have the same stripes, enabling individuals to be identified by their unique pattern of stripes. ",
+  "Unlike other cats, tigers are good swimmers and often cool off in lakes and streams during the heat of the day. ",
+  "Three sub-species of tiger are already extinct and one species, the South China tiger, is thought only to survive in captivity. ",
+  "Some the biggest threats to the Tigers' survival include illegal poaching, loss of habitat due to agriculture and urbanisation, and reduction in prey availability. ",
+  "Like humans, orangutans have opposable thumbs. Their big toes are also opposable. Unlike humans, approximately one third of all orangutans do not have nails on their big toes. ",
 ]
 
 
@@ -77,24 +77,79 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 
 
+def get_random_yes_no_question():
+    """Return random question for YES/NO answering."""
+    questions = [
+        "Would you like another fact?", "Can I tell you another fact?",
+        "Do you want to hear another fact?"]
+    return random.choice(questions)
+
+
+def get_random_goodbye():
+    """Return random goodbye message."""
+    goodbyes = ["OK.  Goodbye!", "Have a great day!", "Come back again soon!"]
+    return random.choice(goodbyes)
+
+
+class LaunchRequestHandler(AbstractRequestHandler):
+     def can_handle(self, handler_input):
+         # type: (HandlerInput) -> bool
+         return is_request_type("LaunchRequest")(handler_input)
+
+     def handle(self, handler_input):
+         # type: (HandlerInput) -> Response
+         speech_text = f"Welcome to {SKILL_NAME}. " + HELP_MESSAGE
+
+         handler_input.response_builder.speak(speech_text).set_card(
+            SimpleCard(SKILL_NAME, speech_text)).set_should_end_session(
+            False)
+         return handler_input.response_builder.response
+
+         
 # Built-in Intent Handlers
 class GetNewFactHandler(AbstractRequestHandler):
     """Handler for Skill Launch and GetNewFact Intent."""
     def can_handle(self, handler_input):
         # type: (HandlerInput) -> bool
-        return (is_request_type("LaunchRequest")(handler_input) or
-                is_intent_name("GetNewFactIntent")(handler_input))
+        return is_intent_name("GetNewFactIntent")(handler_input)
 
     def handle(self, handler_input):
         # type: (HandlerInput) -> Response
         logger.info("In GetNewFactHandler")
 
         random_fact = random.choice(data)
-        speech = GET_FACT_MESSAGE + random_fact
+        speech = GET_FACT_MESSAGE + random_fact + get_random_yes_no_question()
 
         handler_input.response_builder.speak(speech).set_card(
-            SimpleCard(SKILL_NAME, random_fact))
+            SimpleCard(SKILL_NAME, random_fact)).set_should_end_session(
+            False)
         return handler_input.response_builder.response
+
+
+class YesHandler(AbstractRequestHandler):
+    """If the user says Yes, they want another fact."""
+    def can_handle(self, handler_input):
+        # type: (HandlerInput) -> bool
+        return is_intent_name("AMAZON.YesIntent")(handler_input)
+
+    def handle(self, handler_input):
+        # type: (HandlerInput) -> Response
+        logger.info("In YesHandler")
+        return GetNewFactHandler().handle(handler_input)
+
+
+class NoHandler(AbstractRequestHandler):
+    """If the user says No, then the skill should be exited."""
+    def can_handle(self, handler_input):
+        # type: (HandlerInput) -> bool
+        return is_intent_name("AMAZON.NoIntent")(handler_input)
+
+    def handle(self, handler_input):
+        # type: (HandlerInput) -> Response
+        logger.info("In NoHandler")
+
+        return handler_input.response_builder.speak(
+            get_random_goodbye()).set_should_end_session(True).response
 
 
 class HelpIntentHandler(AbstractRequestHandler):
@@ -200,6 +255,9 @@ class ResponseLogger(AbstractResponseInterceptor):
 
 # Register intent handlers
 sb.add_request_handler(GetNewFactHandler())
+sb.add_request_handler(LaunchRequestHandler())
+sb.add_request_handler(YesHandler())
+sb.add_request_handler(NoHandler())
 sb.add_request_handler(HelpIntentHandler())
 sb.add_request_handler(CancelOrStopIntentHandler())
 sb.add_request_handler(FallbackIntentHandler())
