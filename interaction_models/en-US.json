@@ -5,15 +5,22 @@
             "intents": [
                 {
                     "name": "AMAZON.CancelIntent",
-                    "samples": []
+                    "samples": [
+                        "cancel"
+                    ]
                 },
                 {
                     "name": "AMAZON.HelpIntent",
-                    "samples": []
+                    "samples": [
+                        "help"
+                    ]
                 },
                 {
                     "name": "AMAZON.StopIntent",
-                    "samples": []
+                    "samples": [
+                        "exit",
+                        "stop"
+                    ]
                 },
                 {
                     "name": "AMAZON.FallbackIntent",
@@ -37,6 +44,21 @@
                         "give me some endangered species information",
                         "tell me something",
                         "give me something"
+                    ]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": [
+                        "yes",
+                        "sure",
+                        "okay"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": [
+                        "no",
+                        "nope"
                     ]
                 },
                 {
