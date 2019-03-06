@@ -1,0 +1,301 @@
+{
+  "Amur Leopard": {
+    "Facts": [[""]],
+    "Scientific Name": "Panthera pardus orientalis",
+    "Conservation Status": "Critically Endangered (CR)",
+    "More Info": "https://www.worldwildlife.org/species/amur-leopard"
+  },
+  "Black Rhino": {
+    "Facts": [""],
+    "Scientific Name": "Diceros bicornis",
+    "Conservation Status": "Critically Endangered (CR)",
+    "More Info": "https://www.worldwildlife.org/species/black-rhino"
+  },
+  "Bornean Orangutan": {
+    "Facts": [""],
+    "Scientific Name": "Pongo pygmaeus",
+    "Conservation Status": "Critically Endangered (CR)",
+    "More Info": "https://www.worldwildlife.org/species/bornean-orangutan"
+  },
+  "Cross River Gorilla": {
+    "Facts": [""],
+    "Scientific Name": "Gorilla gorilla diehli",
+    "Conservation Status": "Critically Endangered (CR)",
+    "More Info": "https://www.worldwildlife.org/species/cross-river-gorilla"
+  },
+  "Eastern Lowland Gorilla": {
+    "Facts": [""],
+    "Scientific Name": "Gorilla beringei graueri",
+    "Conservation Status": "Critically Endangered (CR)",
+    "More Info": "https://www.worldwildlife.org/species/eastern-lowland-gorilla"
+  },
+  "Hawksbill Turtle": {
+    "Facts": [""],
+    "Scientific Name": "Eretmochelys imbricata",
+    "Conservation Status": "Critically Endangered (CR)",
+    "More Info": "https://www.worldwildlife.org/species/hawksbill-turtle"
+  },
+  "Javan Rhino": {
+    "Facts": [""],
+    "Scientific Name": "Rhinoceros sondaicus",
+    "Conservation Status": "Critically Endangered (CR)",
+    "More Info": "https://www.worldwildlife.org/species/javan-rhino"
+  },
+  "Malayan Tiger": {
+    "Facts": [""],
+    "Scientific Name": "Panthera tigris jacksoni",
+    "Conservation Status": "Critically Endangered (CR)",
+    "More Info": "https://www.worldwildlife.org/species/malayan-tiger"
+  },
+  "Orangutan": {
+    "Facts": ["Like humans, orangutans have opposable thumbs. Their big toes are also opposable. Unlike humans, approximately one third of all orangutans do not have nails on their big toes."],
+    "Scientific Name": "Pongo abelii, Pongo pygmaeus",
+    "Conservation Status": "Critically Endangered (CR)",
+    "More Info": "https://www.worldwildlife.org/species/orangutan"
+  },
+  "Saola": {
+    "Facts": [""],
+    "Scientific Name": "Pseudoryx nghetinhensis",
+    "Conservation Status": "Critically Endangered (CR)",
+    "More Info": "https://www.worldwildlife.org/species/saola"
+  },
+  "South China Tiger": {
+    "Facts": [""],
+    "Scientific Name": "Panthera tigris amoyensis",
+    "Conservation Status": "Critically Endangered (CR)",
+    "More Info": "https://www.worldwildlife.org/species/south-china-tiger"
+  },
+  "Sumatran Elephant": {
+    "Facts": [""],
+    "Scientific Name": "Elephas maximus sumatranus",
+    "Conservation Status": "Critically Endangered (CR)",
+    "More Info": "https://www.worldwildlife.org/species/sumatran-elephant"
+  },
+  "Sumatran Orangutan": {
+    "Facts": [""],
+    "Scientific Name": "Pongo abelii",
+    "Conservation Status": "Critically Endangered (CR)",
+    "More Info": "https://www.worldwildlife.org/species/sumatran-orangutan"
+  },
+  "Sumatran Rhino": {
+    "Facts": [""],
+    "Scientific Name": "Dicerorhinus sumatrensis",
+    "Conservation Status": "Critically Endangered (CR)",
+    "More Info": "https://www.worldwildlife.org/species/sumatran-rhino"
+  },
+  "Sumatran Tiger": {
+    "Facts": [""],
+    "Scientific Name": "Panthera tigris sumatrae",
+    "Conservation Status": "Critically Endangered (CR)",
+    "More Info": "https://www.worldwildlife.org/species/sumatran-tiger"
+  },
+  "Vaquita": {
+    "Facts": [""],
+    "Scientific Name": "Phocoena sinus",
+    "Conservation Status": "Critically Endangered (CR)",
+    "More Info": "https://www.worldwildlife.org/species/vaquita"
+  },
+  "Western Lowland Gorilla": {
+    "Facts": [""],
+    "Scientific Name": "Gorilla gorilla gorilla",
+    "Conservation Status": "Critically Endangered (CR)",
+    "More Info": "https://www.worldwildlife.org/species/western-lowland-gorilla"
+  },
+  "Yangtze Finless Porpoise": {
+    "Facts": [""],
+    "Scientific Name": "Neophocaena asiaeorientalis ssp. asiaeorientalis",
+    "Conservation Status": "Critically Endangered (CR)",
+    "More Info": "https://www.worldwildlife.org/species/yangtze-finless-porpoise"
+  },
+  "African Wild Dog": {
+    "Facts": [""],
+    "Scientific Name": "Lycaon pictus",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/african-wild-dog"
+  },
+  "Amur Tiger": {
+    "Facts": [""],
+    "Scientific Name": "Panthera tigris altaica",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/amur-tiger"
+  },
+  "Asian Elephant": {
+    "Facts": [""],
+    "Scientific Name": "Elephas maximus indicus",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/asian-elephant"
+  },
+  "Bengal Tiger": {
+    "Facts": [""],
+    "Scientific Name": "Panthera tigris tigris",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/bengal-tiger"
+  },
+  "Black-footed Ferret": {
+    "Facts": [""],
+    "Scientific Name": "Mustela nigripes",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/black-footed-ferret"
+  },
+  "Blue Whale": {
+    "Facts": ["The Blue Whale is the largest animal ever to have lived on earth.", 
+              "The Blue Whale's tongue alone can weigh as much as an elephant - its heart, as much as a car.",
+              "Despite being so massive, the blue whale feeds on some of the smallest marine life – tiny shrimp like animals called krill.",
+              "A single adult blue whale can consume 3,600 kilograms (7,900 lb) of krill a day.",
+              "Incredibly, Blue Whales are graceful swimmers who cruise the ocean at over 8km/h, and can reach speeds of over 30km/h."
+            ],
+    "Scientific Name": "Balaenoptera musculus",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/blue-whale"
+  },
+  "Bluefin Tuna": {
+    "Facts": [""],
+    "Scientific Name": "Thunnus spp",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/bluefin-tuna"
+  },
+  "Bonobo": {
+    "Facts": [""],
+    "Scientific Name": "Pan paniscus",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/bonobo"
+  },
+  "Borneo Pygmy Elephant": {
+    "Facts": [""],
+    "Scientific Name": "Elephas maximus borneensis",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/borneo-pygmy-elephant"
+  },
+  "Chimpanzee": {
+    "Facts": ["Researchers have proven that chimpanzees are self-aware and can anticipate the impact of their actions on the environment around them, an ability once thought to be uniquely human.",
+              "Chimpanzees have been shown to have their own individual personalities.",
+              "Chimpanzees are capable of learning basic human sign language.",
+              "Chimpanzees are very dexterous and are able to manipulate objects in their environment in order to fashion and use tools.",
+              "Baby female chimps were discovered playing with sticks like human children play with dolls.",
+              "Because of their dense bones and muscle tissue, the upper body strength of a mature chimpanzee is 8-10 times that than that of humans."
+            ],
+    "Scientific Name": "Pan troglodytes",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/chimpanzee"
+  },
+  "Fin Whale": {
+    "Facts": [""],
+    "Scientific Name": "Balaenoptera physalus",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/fin-whale"
+  },
+  "Galápagos Penguin": {
+    "Facts": [""],
+    "Scientific Name": "Spheniscus mendiculus",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/galapagos-penguin"
+  },
+  "Ganges River Dolphin": {
+    "Facts": [""],
+    "Scientific Name": "Platanista gangetica gangetica",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/ganges-river-dolphin"
+  },
+  "Green Turtle": {
+    "Facts": [""],
+    "Scientific Name": "Chelonia mydas",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/green-turtle"
+  },
+  "Hector's Dolphin": {
+    "Facts": [""],
+    "Scientific Name": "Cephalorhynchus hectori",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/hector-s-dolphin"
+  },
+  "Humphead Wrasse": {
+    "Facts": [""],
+    "Scientific Name": "Cheilinus undulatus",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/humphead-wrasse"
+  },
+  "Indian Elephant": {
+    "Facts": [""],
+    "Scientific Name": "Elephas maximus indicus",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/indian-elephant"
+  },
+  "Indochinese Tiger": {
+    "Facts": [""],
+    "Scientific Name": "Panthera tigris corbetti",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/indochinese-tiger"
+  },
+  "Indus River Dolphin": {
+    "Facts": [""],
+    "Scientific Name": "Platanista minor",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/indus-river-dolphin"
+  },
+  "Irrawaddy Dolphin": {
+    "Facts": [""],
+    "Scientific Name": "Orcaella brevirostris",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/irrawaddy-dolphin"
+  },
+  "Mountain Gorilla": {
+    "Facts": [""],
+    "Scientific Name": "Gorilla beringei beringei",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/mountain-gorilla"
+  },
+  "North Atlantic Right Whale": {
+    "Facts": [""],
+    "Scientific Name": "Eubalaena glacialis",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/north-atlantic-right-whale"
+  },
+  "Red Panda": {
+    "Facts": [""],
+    "Scientific Name": "Ailurus fulgens",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/red-panda"
+  },
+  "Sea Lions": {
+    "Facts": [""],
+    "Scientific Name": "Zalophus wollebaeki",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/sea-lions"
+  },
+  "Sei Whale": {
+    "Facts": [""],
+    "Scientific Name": "Balaenoptera borealis",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/sei-whale"
+  },
+  "Sri Lankan Elephant": {
+    "Facts": [""],
+    "Scientific Name": "Elephas maximus maximus",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/sri-lankan-elephant"
+  },
+  "Tiger": {
+    "Facts": ["The Tiger's beautiful orange and black striped coats provide camouflage when hunting prey at night when they can reach speeds of 40 miles per hour.",
+              "Tigers are powerful apex predators that are at the top of the food chain and capable of killing animals over twice their size.",
+              "No two tigers have the same stripes, enabling individuals to be identified by their unique pattern of stripes.",
+              "Unlike other cats, tigers are good swimmers and often cool off in lakes and streams during the heat of the day.",
+              "Tigers are solitary, living alone in scent-marked territories that vary in size depending on the availability of prey.",
+              "Tiger dens are positioned in secluded areas such as in caves, among dense vegetation or in hollow trees."
+            ],
+    "Scientific Name": "Panthera tigris",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/tiger"
+  },
+  "Whale": {
+    "Facts": [""],
+    "Scientific Name": "Balaenoptera, Balaena, Eschrichtius, and Eubalaen",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/whale"
+  },
+  "Whale Shark": {
+    "Facts": [""],
+    "Scientific Name": "Rhincodon typus",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/whale-shark"
+  }
+}
