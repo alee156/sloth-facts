@@ -27,7 +27,7 @@
                     "samples": []
                 },
                 {
-                    "name": "GetNewFactIntent",
+                    "name": "GetRandomFactIntent",
                     "slots": [],
                     "samples": [
                         "a fact",
