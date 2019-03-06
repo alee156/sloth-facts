@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+import json
 import random
 import logging
 
@@ -27,44 +27,6 @@ STOP_MESSAGE = "Goodbye!"
 FALLBACK_MESSAGE = "The Endangered Species Facts skill can't help you with that.  It can help you discover facts about endangered species if you say tell me an endangered species fact. What can I help you with?"
 FALLBACK_REPROMPT = 'What can I help you with?'
 EXCEPTION_MESSAGE = "Sorry. I cannot help you with that."
-
-
-# =========================================================================================================================================
-# Facts
-# =========================================================================================================================================
-
-
-data = [
-  "The Blue Whale is the largest animal ever to have lived on earth. ",
-  "The Blue Whale's tongue alone can weigh as much as an elephant - its heart, as much as a car. ",
-  "Despite being so massive, the blue whale feeds on some of the smallest marine life – tiny shrimp like animals called krill. ",
-  "A single adult blue whale can consume 36,000 kg of krill a day. ",
-  "Incredibly, Blue Whales are graceful swimmers who cruise the ocean at over 8km/h, and can reach speeds of over 30km/h. ",
-  "Though we can’t hear them, blue whales are one of the loudest animals on the planet, communicating with each other using a series of low frequency pulses, groans, and moans. ",
-  "It is thought that in good conditions blue whales can hear each other across distances of up to 1,600km. ",
-  "Researchers have proven that chimpanzees are self-aware and can anticipate the impact of their actions on the environment around them, an ability once thought to be uniquely human. ",
-  "Chimpanzees have been shown to have their own individual personalities. ",
-  "Chimpanzees behave in a way indicating that they feel empathy. ",
-  "Chimpanzees travel mostly on the ground but will mostly feed in trees during the day and make a new nest every night in the forest canopy to sleep. ",
-  "Chimpanzees are capable of learning basic human sign language. ",
-  "Chimpanzees have opposable thumbs and toes that allow for grasping, climbing, and object manipulation. ",
-  "Chimpanzees are very dexterous and are able to manipulate objects in their environment in order to fashion and use tools. ",
-  "Baby female chimps were recently discovered playing with sticks like human children play with dolls. ",
-  "Chimpanzees have the same bones and muscles as humans with differences only in form (e.g. their arms are longer than their legs). ",
-  "Because of their dense bones and muscle tissue, the upper body strength of a mature chimpanzee is 8-10 times that than that of humans. ",
-  "The Tiger's beautiful orange and black striped coats provide camouflage when hunting prey at night when they can reach speeds of 40 miles per hour. ",
-  "Tigers are native to Asia, but their range today is much smaller than it used to be, and includes South-east Asia, India, western China, and some parts of Russia. ",
-  "In terms of habitat, tigers inhabit a range of environments, but generally prefer areas with dense cover, like forests, with access to water and plenty of prey. ",
-  "Tiger dens are positioned in secluded areas such as in caves, among dense vegetation or in hollow trees. ",
-  "Tigers are powerful apex predators that are at the top of the food chain and capable of killing animals over twice their size. ",
-  "Tigers are nocturnal hunters and will travel many miles to prey on a variety of animals including deer, buffalo and wild boar; native ungulates are the favourite. ",
-  "Tigers are solitary, living alone in scent-marked territories that vary in size depending on the availability of prey. ",
-  "No two tigers have the same stripes, enabling individuals to be identified by their unique pattern of stripes. ",
-  "Unlike other cats, tigers are good swimmers and often cool off in lakes and streams during the heat of the day. ",
-  "Three sub-species of tiger are already extinct and one species, the South China tiger, is thought only to survive in captivity. ",
-  "Some the biggest threats to the Tigers' survival include illegal poaching, loss of habitat due to agriculture and urbanisation, and reduction in prey availability. ",
-  "Like humans, orangutans have opposable thumbs. Their big toes are also opposable. Unlike humans, approximately one third of all orangutans do not have nails on their big toes. ",
-]
 
 
 # =========================================================================================================================================
@@ -107,17 +69,20 @@ class LaunchRequestHandler(AbstractRequestHandler):
 
          
 # Built-in Intent Handlers
-class GetNewFactHandler(AbstractRequestHandler):
-    """Handler for Skill Launch and GetNewFact Intent."""
+class GetRandomFactHandler(AbstractRequestHandler):
+    """Handler for Skill Launch and GetRandomFact Intent."""
     def can_handle(self, handler_input):
         # type: (HandlerInput) -> bool
-        return is_intent_name("GetNewFactIntent")(handler_input)
+        return is_intent_name("GetRandomFactIntent")(handler_input)
 
     def handle(self, handler_input):
         # type: (HandlerInput) -> Response
-        logger.info("In GetNewFactHandler")
+        logger.info("In GetRandomFactHandler")
+        
+        with open('./fulfillment/data/facts.json') as f:
+            facts = json.loads(f.read())
 
-        random_fact = random.choice(data)
+        random_fact = random.choice(facts)['Fact']
         speech = GET_FACT_MESSAGE + random_fact + get_random_yes_no_question()
 
         handler_input.response_builder.speak(speech).set_card(
@@ -135,7 +100,7 @@ class YesHandler(AbstractRequestHandler):
     def handle(self, handler_input):
         # type: (HandlerInput) -> Response
         logger.info("In YesHandler")
-        return GetNewFactHandler().handle(handler_input)
+        return GetRandomFactHandler().handle(handler_input)
 
 
 class NoHandler(AbstractRequestHandler):
@@ -254,7 +219,7 @@ class ResponseLogger(AbstractResponseInterceptor):
 
 
 # Register intent handlers
-sb.add_request_handler(GetNewFactHandler())
+sb.add_request_handler(GetRandomFactHandler())
 sb.add_request_handler(LaunchRequestHandler())
 sb.add_request_handler(YesHandler())
 sb.add_request_handler(NoHandler())
