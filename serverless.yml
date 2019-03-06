@@ -2,13 +2,13 @@
 #    docs.serverless.com
 
 service: endangered-species-facts
-stage: dev
-region: us-east-1
 frameworkVersion: ">=1.4.0 <2.0.0"
 
 provider:
   name: aws
   runtime: python3.7
+  stage: dev
+  region: us-east-1
 plugins:
   - serverless-python-requirements
 
@@ -18,4 +18,3 @@ functions:
     description: Endpoint that takes POST requests for Endangered Species Facts Alexa skill.
     events:
       - alexaSkill: # Skill ID here. E.g. amzn1.ask.skill.xx-xx-xx-xx
-
