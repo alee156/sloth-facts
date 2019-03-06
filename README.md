@@ -3,7 +3,7 @@ An Alexa skill that gives interesting facts about endangered species and attempt
 
 [![Enable This Skill](https://dabuttonfactory.com/button.png?t=Enable+This+Skill&f=Calibri-Bold&ts=24&tc=fff&tshs=1&tshc=000&hp=20&vp=8&c=5&bgt=gradient&bgc=0ff&ebgc=187cd8&shs=1&shc=444&sho=s)](http://bit.ly/ALEXAESF)
 
-## :wave: [Contribute interesting facts here](https://airtable.com/shrWUQJ7pjSDDgip5)
+## :wave: [Contribute interesting facts here](https://airtable.com/shrKoriHZsn3tz9qU)
 
 ## Usage
 
