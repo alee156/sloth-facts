@@ -79,17 +79,23 @@ class GetRandomFactHandler(AbstractRequestHandler):
         # type: (HandlerInput) -> Response
         logger.info("In GetRandomFactHandler")
         
-        with open('./fulfillment/data/facts.json') as f:
-            facts = json.loads(f.read())
+        with open('./fulfillment/data/data.json') as f:
+            data = json.loads(f.read())
+        
+        while True:
+            fact = random.choice(data[random.choice(list(data))]['Facts'])
+            if fact:
+                break
+            else:
+                continue
 
-        random_fact = random.choice(facts)['Fact']
-        speech = "{intro} {fact} {followup}".format(
+        speech = "{intro} {fact} {reprompt}".format(
             intro=GET_FACT_MESSAGE, 
-            fact=random_fact, 
-            followup=get_random_yes_no_question())
+            fact=fact, 
+            reprompt=get_random_yes_no_question())
 
         handler_input.response_builder.speak(speech).set_card(
-            SimpleCard(SKILL_NAME, random_fact)).set_should_end_session(
+            SimpleCard(SKILL_NAME, fact)).set_should_end_session(
             False)
         return handler_input.response_builder.response
 
