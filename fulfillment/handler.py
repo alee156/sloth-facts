@@ -20,7 +20,7 @@ from ask_sdk_model import Response
 
 
 SKILL_NAME = "Endangered Species Facts"
-GET_FACT_MESSAGE = "Here's your fact: "
+GET_FACT_MESSAGE = "Here's your fact:"
 HELP_MESSAGE = "You can say tell me a Endangered Species fact, or, you can say exit... What can I help you with?"
 HELP_REPROMPT = "What can I help you with?"
 STOP_MESSAGE = "Goodbye!"
@@ -83,7 +83,10 @@ class GetRandomFactHandler(AbstractRequestHandler):
             facts = json.loads(f.read())
 
         random_fact = random.choice(facts)['Fact']
-        speech = GET_FACT_MESSAGE + random_fact + get_random_yes_no_question()
+        speech = "{intro} {fact} {followup}".format(
+            intro=GET_FACT_MESSAGE, 
+            fact=random_fact, 
+            followup=get_random_yes_no_question())
 
         handler_input.response_builder.speak(speech).set_card(
             SimpleCard(SKILL_NAME, random_fact)).set_should_end_session(
