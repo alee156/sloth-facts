@@ -21,7 +21,7 @@ from ask_sdk_model import Response
 
 SKILL_NAME = "Endangered Species Facts"
 GET_FACT_MESSAGE = "Here's your fact:"
-HELP_MESSAGE = "You can say tell me a Endangered Species fact, or, you can say exit... What can I help you with?"
+HELP_MESSAGE = "You can say tell me a Endangered Species fact, how many species are endangered, or, you can say exit... What can I help you with?"
 HELP_REPROMPT = "What can I help you with?"
 STOP_MESSAGE = "Goodbye!"
 FALLBACK_MESSAGE = "The Endangered Species Facts skill can't help you with that.  It can help you discover facts about endangered species if you say tell me an endangered species fact. What can I help you with?"
@@ -68,9 +68,8 @@ class LaunchRequestHandler(AbstractRequestHandler):
          return handler_input.response_builder.response
 
          
-# Built-in Intent Handlers
 class GetRandomFactHandler(AbstractRequestHandler):
-    """Handler for Skill Launch and GetRandomFact Intent."""
+    """Handler for GetRandomFact Intent."""
     def can_handle(self, handler_input):
         # type: (HandlerInput) -> bool
         return is_intent_name("GetRandomFactIntent")(handler_input)
@@ -100,6 +99,34 @@ class GetRandomFactHandler(AbstractRequestHandler):
         return handler_input.response_builder.response
 
 
+class GetNumberOfEndangeredSpeciesHandler(AbstractRequestHandler):
+    """Handler for GetNumberOfEndangeredSpecies Intent."""
+    def can_handle(self, handler_input):
+        # type: (HandlerInput) -> bool
+        return is_intent_name("GetNumberOfEndangeredSpecies")(handler_input)
+
+    def handle(self, handler_input):
+        # type: (HandlerInput) -> Response
+        logger.info("In GetNumberOfEndangeredSpeciesHandler")
+        
+        with open('./fulfillment/data/data.json') as f:
+            data = json.loads(f.read())
+        
+        species = [species for species in data]
+        num_species = len(species)
+        critical_num = sum(1 for animal in species if data[animal]['Conservation Status']=="Critically Endangered (CR)")
+
+        speech = "There are currently {number} endangered species. {critical_num} of which are critically endangered.".format(
+            number=num_species,
+            critical_num=critical_num)
+
+        handler_input.response_builder.speak(speech).set_card(
+            SimpleCard(SKILL_NAME, num_species)).set_should_end_session(
+            False)
+        return handler_input.response_builder.response
+
+
+# Built-in Intent Handlers
 class YesHandler(AbstractRequestHandler):
     """If the user says Yes, they want another fact."""
     def can_handle(self, handler_input):
@@ -229,6 +256,7 @@ class ResponseLogger(AbstractResponseInterceptor):
 
 # Register intent handlers
 sb.add_request_handler(GetRandomFactHandler())
+sb.add_request_handler(GetNumberOfEndangeredSpeciesHandler())
 sb.add_request_handler(LaunchRequestHandler())
 sb.add_request_handler(YesHandler())
 sb.add_request_handler(NoHandler())
