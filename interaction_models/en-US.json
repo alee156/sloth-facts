@@ -30,6 +30,8 @@
                     "name": "GetRandomFactIntent",
                     "slots": [],
                     "samples": [
+                        "a random fact",
+                        "tell me a random fact",
                         "a fact",
                         "an endangered species fact",
                         "tell me a fact",
@@ -64,6 +66,22 @@
                 {
                     "name": "AMAZON.NavigateHomeIntent",
                     "samples": []
+                },
+                {
+                    "name": "GetNumberOfEndangeredSpecies",
+                    "slots": [],
+                    "samples": [
+                        "the count of endangered species",
+                        "the count of species that are endangered",
+                        "the count of species endangered",
+                        "the number of species that are endangered",
+                        "the number of species endangered",
+                        "the number of endangered species",
+                        "how many endangered species are there",
+                        "what number of species are endangered",
+                        "how many species are currently endangered",
+                        "how many species are endangered"
+                    ]
                 }
             ],
             "types": []
