@@ -7,11 +7,11 @@ An Alexa skill that gives interesting facts about endangered species and attempt
 
 ## Usage
 
-> "Alexa, ask endangered species facts to tell me a fact"
+> "Alexa, ask super sloth facts to tell me a fact"
 
-> "Alexa, tell endangered species facts to tell me a fact"
+> "Alexa, tell super sloth facts to tell me a fact"
 
-> "Alexa, open endangered species facts"
+> "Alexa, open super sloth facts"
 
 # :smiley_cat: Installation
 You will need to complete the prerequisites below before creating the skill and deploying the fulfillment handler.
