@@ -1,0 +1,345 @@
+{
+  "Amur Leopard": {
+    "Facts": [""],
+    "Scientific Name": "Panthera pardus orientalis",
+    "Conservation Status": "Critically Endangered (CR)",
+    "More Info": "https://www.worldwildlife.org/species/amur-leopard"
+  },
+  "Black Rhino": {
+    "Facts": [
+      "The black rhino once roamed most of sub-Saharan Africa, but today is on the verge of extinction due to poaching fueled by commercial demand for its horn.",
+      "Black rhinos have been known to charge at trains passing through their territory.",
+      "Rhino horns grow as much as three inches a year, and have been known to grow up to five feet long.",
+      "Except for females and their offspring, black rhinos are solitary.",
+      "Both black and white rhinoceroses are actually gray.",
+      "The black rhino has a pointed upper lip, while its white relative has a squared lip.",
+      "Black rhinos have poor eyesight, and cannot easily detect an observer standing more than 30 metres away.",
+      "Black rhino can move extremely fast and have been recorded at highs of 55 km/h."
+    ],
+    "Scientific Name": "Diceros bicornis",
+    "Conservation Status": "Critically Endangered (CR)",
+    "More Info": "https://www.worldwildlife.org/species/black-rhino"
+  },
+  "Bornean Orangutan": {
+    "Facts": [""],
+    "Scientific Name": "Pongo pygmaeus",
+    "Conservation Status": "Critically Endangered (CR)",
+    "More Info": "https://www.worldwildlife.org/species/bornean-orangutan"
+  },
+  "Cross River Gorilla": {
+    "Facts": [""],
+    "Scientific Name": "Gorilla gorilla diehli",
+    "Conservation Status": "Critically Endangered (CR)",
+    "More Info": "https://www.worldwildlife.org/species/cross-river-gorilla"
+  },
+  "Eastern Lowland Gorilla": {
+    "Facts": [""],
+    "Scientific Name": "Gorilla beringei graueri",
+    "Conservation Status": "Critically Endangered (CR)",
+    "More Info": "https://www.worldwildlife.org/species/eastern-lowland-gorilla"
+  },
+  "Hawksbill Turtle": {
+    "Facts": [""],
+    "Scientific Name": "Eretmochelys imbricata",
+    "Conservation Status": "Critically Endangered (CR)",
+    "More Info": "https://www.worldwildlife.org/species/hawksbill-turtle"
+  },
+  "Javan Rhino": {
+    "Facts": [""],
+    "Scientific Name": "Rhinoceros sondaicus",
+    "Conservation Status": "Critically Endangered (CR)",
+    "More Info": "https://www.worldwildlife.org/species/javan-rhino"
+  },
+  "Malayan Tiger": {
+    "Facts": [""],
+    "Scientific Name": "Panthera tigris jacksoni",
+    "Conservation Status": "Critically Endangered (CR)",
+    "More Info": "https://www.worldwildlife.org/species/malayan-tiger"
+  },
+  "Orangutan": {
+    "Facts": [
+      "Like humans, orangutans have opposable thumbs. Their big toes are also opposable. Unlike humans, approximately one third of all orangutans do not have nails on their big toes.",
+      "The Malay word orangutan means \"person of the forest.\"",
+      "These long-haired, orangish primates, found only in Sumatra and Borneo, are highly intelligent and are close relatives of humans.",
+      "Orangutans have an enormous arm span. A male may stretch his arms some 7 feet from fingertip to fingertip - a reach considerably longer than his standing height of about 5 feet. When orangutans do stand, their hands nearly touch the ground.",
+      "Orangutans' arms are well suited to their lifestyle because they spend much of their time (some 90 percent) in the trees of their tropical rain forest home.",
+      "Infants will stay with their mothers for some six or seven years until they develop the skills to survive on their own.",
+      "Female orangutans give birth only once every eight years - the longest time period of any animal.",
+      "Because orangutans live in only a few places, and because they are so dependent upon trees, they are particularly susceptible to logging in these areas. Unfortunately, deforestation and other human activities, such as hunting, have placed the orangutan in danger of extinction.",
+      "The animals are long-lived and have survived as long as 60 years in captivity."
+    ],
+    "Scientific Name": "Pongo abelii, Pongo pygmaeus",
+    "Conservation Status": "Critically Endangered (CR)",
+    "More Info": "https://www.worldwildlife.org/species/orangutan"
+  },
+  "Saola": {
+    "Facts": [""],
+    "Scientific Name": "Pseudoryx nghetinhensis",
+    "Conservation Status": "Critically Endangered (CR)",
+    "More Info": "https://www.worldwildlife.org/species/saola"
+  },
+  "South China Tiger": {
+    "Facts": [""],
+    "Scientific Name": "Panthera tigris amoyensis",
+    "Conservation Status": "Critically Endangered (CR)",
+    "More Info": "https://www.worldwildlife.org/species/south-china-tiger"
+  },
+  "Sumatran Elephant": {
+    "Facts": [""],
+    "Scientific Name": "Elephas maximus sumatranus",
+    "Conservation Status": "Critically Endangered (CR)",
+    "More Info": "https://www.worldwildlife.org/species/sumatran-elephant"
+  },
+  "Sumatran Orangutan": {
+    "Facts": [""],
+    "Scientific Name": "Pongo abelii",
+    "Conservation Status": "Critically Endangered (CR)",
+    "More Info": "https://www.worldwildlife.org/species/sumatran-orangutan"
+  },
+  "Sumatran Rhino": {
+    "Facts": [""],
+    "Scientific Name": "Dicerorhinus sumatrensis",
+    "Conservation Status": "Critically Endangered (CR)",
+    "More Info": "https://www.worldwildlife.org/species/sumatran-rhino"
+  },
+  "Sumatran Tiger": {
+    "Facts": [""],
+    "Scientific Name": "Panthera tigris sumatrae",
+    "Conservation Status": "Critically Endangered (CR)",
+    "More Info": "https://www.worldwildlife.org/species/sumatran-tiger"
+  },
+  "Vaquita": {
+    "Facts": [""],
+    "Scientific Name": "Phocoena sinus",
+    "Conservation Status": "Critically Endangered (CR)",
+    "More Info": "https://www.worldwildlife.org/species/vaquita"
+  },
+  "Western Lowland Gorilla": {
+    "Facts": [""],
+    "Scientific Name": "Gorilla gorilla gorilla",
+    "Conservation Status": "Critically Endangered (CR)",
+    "More Info": "https://www.worldwildlife.org/species/western-lowland-gorilla"
+  },
+  "Yangtze Finless Porpoise": {
+    "Facts": [""],
+    "Scientific Name": "Neophocaena asiaeorientalis ssp. asiaeorientalis",
+    "Conservation Status": "Critically Endangered (CR)",
+    "More Info": "https://www.worldwildlife.org/species/yangtze-finless-porpoise"
+  },
+  "African Wild Dog": {
+    "Facts": [""],
+    "Scientific Name": "Lycaon pictus",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/african-wild-dog"
+  },
+  "Amur Tiger": {
+    "Facts": [""],
+    "Scientific Name": "Panthera tigris altaica",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/amur-tiger"
+  },
+  "Asian Elephant": {
+    "Facts": [
+      "Asian elephants can be identified by their smaller, rounded ears. (An African elephant's ears resemble the continent of Africa.)",
+      "Elephant ears radiate heat to help keep these large animals cool, but sometimes that isn't enough. Elephants are fond of water and enjoy showering by sucking water into their trunks and spraying it all over themselves.",
+      "An elephant's trunk is actually a long nose with many functions. It is used for smelling, breathing, trumpeting, drinking, and also for grabbing things - especially a potential meal.",
+      "The Asian Elephant's trunk alone contains about 100,000 different muscles.",
+      "Elephants use their tusks to dig for roots and water, strip bark from trees, and even fight each other. Unfortunately their ivory has gotten them into a lot of trouble. Because ivory is so valuable to some humans, many elephants have been killed for their tusks. This trade is illegal today, but it has not been completely eliminated.",
+      "At birth, elephants already weigh some 200 pounds and stand about three feet tall.",
+      "As the world's largest land mammal, elephants have quite the commanding presence. But did you know elephants can't jump? Or that baby elephants lose their first set of teeth and tusks, just like humans?"
+    ],
+    "Scientific Name": "Elephas maximus indicus",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/asian-elephant"
+  },
+  "Bengal Tiger": {
+    "Facts": [""],
+    "Scientific Name": "Panthera tigris tigris",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/bengal-tiger"
+  },
+  "Black-footed Ferret": {
+    "Facts": [""],
+    "Scientific Name": "Mustela nigripes",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/black-footed-ferret"
+  },
+  "Blue Whale": {
+    "Facts": [
+      "The Blue Whale is the largest animal ever to have lived on earth.", 
+      "The Blue Whale's tongue alone can weigh as much as an elephant - its heart, as much as a car.",
+      "Despite being so massive, the blue whale feeds on some of the smallest marine life – tiny shrimp like animals called krill.",
+      "A single adult blue whale can consume 3,600 kilograms (7,900 lb) of krill a day.",
+      "Incredibly, Blue Whales are graceful swimmers who cruise the ocean at over 8km/h, and can reach speeds of over 30km/h."
+    ],
+    "Scientific Name": "Balaenoptera musculus",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/blue-whale"
+  },
+  "Bluefin Tuna": {
+    "Facts": [""],
+    "Scientific Name": "Thunnus spp",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/bluefin-tuna"
+  },
+  "Bonobo": {
+    "Facts": [""],
+    "Scientific Name": "Pan paniscus",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/bonobo"
+  },
+  "Borneo Pygmy Elephant": {
+    "Facts": [""],
+    "Scientific Name": "Elephas maximus borneensis",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/borneo-pygmy-elephant"
+  },
+  "Chimpanzee": {
+    "Facts": [
+      "Researchers have proven that chimpanzees are self-aware and can anticipate the impact of their actions on the environment around them, an ability once thought to be uniquely human.",
+      "Chimpanzees have been shown to have their own individual personalities.",
+      "Chimpanzees are capable of learning basic human sign language.",
+      "Chimpanzees are very dexterous and are able to manipulate objects in their environment in order to fashion and use tools.",
+      "Baby female chimps were discovered playing with sticks like human children play with dolls.",
+      "Because of their dense bones and muscle tissue, the upper body strength of a mature chimpanzee is 8-10 times that than that of humans."
+    ],
+    "Scientific Name": "Pan troglodytes",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/chimpanzee"
+  },
+  "Fin Whale": {
+    "Facts": [""],
+    "Scientific Name": "Balaenoptera physalus",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/fin-whale"
+  },
+  "Galápagos Penguin": {
+    "Facts": [""],
+    "Scientific Name": "Spheniscus mendiculus",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/galapagos-penguin"
+  },
+  "Ganges River Dolphin": {
+    "Facts": [""],
+    "Scientific Name": "Platanista gangetica gangetica",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/ganges-river-dolphin"
+  },
+  "Green Sea Turtle": {
+    "Facts": [
+      "It is named not for the color of its shell, which is normally brown or olive depending on its habitat, but for the greenish color of its skin.",
+      "Weighing up to 700 pounds green turtles are among the largest sea turtles in the world.",
+      "Unlike most sea turtles, adult green turtles are herbivorous, feeding on sea grasses and algae. Juvenile green turtles, however, will also eat invertebrates like crabs, jellyfish, and sponges.",
+      "While most sea turtles warm themselves by swimming close to the surface of shallow waters, the Eastern Pacific green turtle will take to land to bask in the sun.",
+      "The most dangerous time of a green turtle’s life is when it makes the journey from nest to sea. Multiple predators, including crabs and flocks of gulls, voraciously prey on hatchlings during this short scamper.",
+      "Green turtles are listed as an endangered species. Despite this, they are still killed for their meat and eggs. Their numbers are also reduced by boat propeller accidents, fishnet-caused drowning, and the destruction of their nesting grounds by human encroachment."
+    ],
+    "Scientific Name": "Chelonia mydas",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/green-turtle"
+  },
+  "Hector's Dolphin": {
+    "Facts": [""],
+    "Scientific Name": "Cephalorhynchus hectori",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/hector-s-dolphin"
+  },
+  "Humphead Wrasse": {
+    "Facts": [""],
+    "Scientific Name": "Cheilinus undulatus",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/humphead-wrasse"
+  },
+  "Indian Elephant": {
+    "Facts": [""],
+    "Scientific Name": "Elephas maximus indicus",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/indian-elephant"
+  },
+  "Indochinese Tiger": {
+    "Facts": [""],
+    "Scientific Name": "Panthera tigris corbetti",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/indochinese-tiger"
+  },
+  "Indus River Dolphin": {
+    "Facts": [""],
+    "Scientific Name": "Platanista minor",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/indus-river-dolphin"
+  },
+  "Irrawaddy Dolphin": {
+    "Facts": [""],
+    "Scientific Name": "Orcaella brevirostris",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/irrawaddy-dolphin"
+  },
+  "Mountain Gorilla": {
+    "Facts": [""],
+    "Scientific Name": "Gorilla beringei beringei",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/mountain-gorilla"
+  },
+  "North Atlantic Right Whale": {
+    "Facts": [""],
+    "Scientific Name": "Eubalaena glacialis",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/north-atlantic-right-whale"
+  },
+  "Red Panda": {
+    "Facts": [
+      "These pandas typically grow to the size of a house cat, though their big, bushy tails add an additional 18 inches.",
+      "The pandas use their ringed tails as wraparound blankets in the chilly mountain heights.",
+      "Red pandas have a taste for bamboo but, unlike their larger relatives, they eat many other foods as well—fruit, acorns, roots, and eggs.",
+      "Like giant pandas, they have an extended wrist bone that functions almost like a thumb and greatly aids their grip.",
+      "Red pandas are an at-risk species, victims of deforestation.",
+      "Currently, red pandas are considered members of their own unique family - the Ailuridae."
+    ],
+    "Scientific Name": "Ailurus fulgens",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/red-panda"
+  },
+  "Sea Lion": {
+    "Facts": [""],
+    "Scientific Name": "Zalophus wollebaeki",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/sea-lions"
+  },
+  "Sei Whale": {
+    "Facts": [""],
+    "Scientific Name": "Balaenoptera borealis",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/sei-whale"
+  },
+  "Sri Lankan Elephant": {
+    "Facts": [""],
+    "Scientific Name": "Elephas maximus maximus",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/sri-lankan-elephant"
+  },
+  "Tiger": {
+    "Facts": [
+      "The Tiger's beautiful orange and black striped coats provide camouflage when hunting prey at night when they can reach speeds of 40 miles per hour.",
+      "Tigers are powerful apex predators that are at the top of the food chain and capable of killing animals over twice their size.",
+      "No two tigers have the same stripes, enabling individuals to be identified by their unique pattern of stripes.",
+      "Unlike other cats, tigers are good swimmers and often cool off in lakes and streams during the heat of the day.",
+      "Tigers are solitary, living alone in scent-marked territories that vary in size depending on the availability of prey.",
+      "Tiger dens are positioned in secluded areas such as in caves, among dense vegetation or in hollow trees."
+    ],
+    "Scientific Name": "Panthera tigris",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/tiger"
+  },
+  "Whale": {
+    "Facts": [""],
+    "Scientific Name": "Balaenoptera, Balaena, Eschrichtius, and Eubalaen",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/whale"
+  },
+  "Whale Shark": {
+    "Facts": [""],
+    "Scientific Name": "Rhincodon typus",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/whale-shark"
+  }
+}
