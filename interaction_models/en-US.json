@@ -1,7 +1,7 @@
 {
     "interactionModel": {
         "languageModel": {
-            "invocationName": "endangered species facts",
+            "invocationName": "sloth facts",
             "intents": [
                 {
                     "name": "AMAZON.CancelIntent",
@@ -31,19 +31,20 @@
                     "slots": [],
                     "samples": [
                         "a random fact",
+                        "tell me about sloths",
                         "tell me a random fact",
                         "a fact",
-                        "an endangered species fact",
+                        "an sloth fact",
                         "tell me a fact",
-                        "tell me an endangered species fact",
-                        "give me an endangered species fact",
-                        "give me an endangered fact",
+                        "tell me a sloth fact",
+                        "give me a sloth fact",
+                        "give me a sloth fact",
                         "tell me trivia",
-                        "tell me an endangered species trivia",
+                        "tell me sloth trivia",
                         "give me trivia",
-                        "give me an endangered species trivia",
+                        "give me an sloth trivia",
                         "give me some information",
-                        "give me some endangered species information",
+                        "give me some sloth information",
                         "tell me something",
                         "give me something"
                     ]
@@ -66,22 +67,6 @@
                 {
                     "name": "AMAZON.NavigateHomeIntent",
                     "samples": []
-                },
-                {
-                    "name": "GetNumberOfEndangeredSpecies",
-                    "slots": [],
-                    "samples": [
-                        "the count of endangered species",
-                        "the count of species that are endangered",
-                        "the count of species endangered",
-                        "the number of species that are endangered",
-                        "the number of species endangered",
-                        "the number of endangered species",
-                        "how many endangered species are there",
-                        "what number of species are endangered",
-                        "how many species are currently endangered",
-                        "how many species are endangered"
-                    ]
                 }
             ],
             "types": []
