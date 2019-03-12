@@ -1,60 +1,55 @@
 {
-  "Two-toed Sloths": {
+  "Two toed Sloths": {
     "Facts": [
-      "The two-toed sloth is generally much faster than the three-toed sloth.",
-      "Two-toed sloths actually have three toes. They do have two fingers however!",
-      "Two-toed sloths are predominantly nocturnal.",
-      "Two-toed sloths spend most of their lives hanging on tree branches.",
-      "Both black and white rhinoceroses are actually gray.",
-      "The black rhino has a pointed upper lip, while its white relative has a squared lip.",
-      "Black rhinos have poor eyesight, and cannot easily detect an observer standing more than 30 metres away.",
-      "Black rhino can move extremely fast and have been recorded at highs of 55 km/h."
+      "The two toed sloth is generally much faster than the three toed sloth.",
+      "Two toed sloths actually have three toes. They do have two fingers however!",
+      "Two toed sloths are predominantly nocturnal.",
+      "Two toed sloths spend most of their lives hanging on tree branches.",
+      "There are two species of two toed sloths. The Linnaeus’s two-toed sloth (Choloepus didactylus) and the Hoffman’s two-toed sloth (Choloepus hoffmanni)",
+      "While two toed sloths are able to survive in captivity, three toed sloths are not.",
+      "Sloths are surprisingly fantastic swimmers.",
+      "Two toed sloths are bigger than three toed sloths",
+      "The average lifespan for a two toed sloth is 10 to 12 years in the wild, but in captivity can live to even 30 years."
     ],
-    "Scientific Name": "Diceros bicornis",
-    "Conservation Status": "Critically Endangered (CR)",
-    "More Info": "https://www.worldwildlife.org/species/black-rhino"
+    "Scientific Name": "Choloepus",
+    "Conservation Status": "Least concern (LC)",
+    "More Info": "https://www.worldwildlife.org/species/sloth"
   },
-  "Three-toed Sloths": {
+  "Three toed Sloths": {
     "Facts": [
-      "Like humans, orangutans have opposable thumbs. Their big toes are also opposable. Unlike humans, approximately one third of all orangutans do not have nails on their big toes.",
-      "The Malay word orangutan means \"person of the forest.\"",
-      "These long-haired, orangish primates, found only in Sumatra and Borneo, are highly intelligent and are close relatives of humans.",
-      "Orangutans have an enormous arm span. A male may stretch his arms some 7 feet from fingertip to fingertip - a reach considerably longer than his standing height of about 5 feet. When orangutans do stand, their hands nearly touch the ground.",
-      "Orangutans' arms are well suited to their lifestyle because they spend much of their time (some 90 percent) in the trees of their tropical rain forest home.",
-      "Infants will stay with their mothers for some six or seven years until they develop the skills to survive on their own.",
-      "Female orangutans give birth only once every eight years - the longest time period of any animal.",
-      "Because orangutans live in only a few places, and because they are so dependent upon trees, they are particularly susceptible to logging in these areas. Unfortunately, deforestation and other human activities, such as hunting, have placed the orangutan in danger of extinction.",
-      "The animals are long-lived and have survived as long as 60 years in captivity."
+      "The sloth is the world's slowest mammal, so sedentary that algae grows on its furry coat. The plant gives it a greenish tint that is useful camouflage in the trees of its Central and South American rain forest home.",
+      "With such a slow metabolism, sloths must sunbathe in order to keep their body temperature up.",
+      "Brown-throated sloths have the ability to rotate their heads like owls. They have nine cervical vertebrae (the bones in the spine that support the head), as opposed to the seven that most mammals have.",
+      "Being the world’s slowest mammal, the sloth travels at a top speed of 0.24 kilometres per hour (0.15 mph).",
+      "Sloths sleep in trees – some 15 to 20 hours every day. Even when awake they often remain motionless.",
+      "Dead sloths have been known to retain their grip and remain suspended from a branch.",
+      "At night they eat leaves, shoots and fruit from the trees and get almost all of their water from juicy plants.",
+      "Although they are quite slow in trees, three-toed sloths are agile swimmers.",
+      "On land, sloths’ weak hind legs are not very powerful and their long claws are a hindrance. They cannot walk on all four limbs so they must use their front arms and claws to drag themselves across the rain forest floor.",
+      "They generally weigh almost 9 pounds, which is almost the same as a gallon of skim milk.",
+      "There are three main types of three toed sloths. The Pygmy three-toed sloth (Bradypus pygmaeus), the Maned sloth (Bradypus torquatus), the Pale-throated sloth (Bradypus tridactylus), and the Brown-throated sloth (Bradypus variegatus).",
+      "Of the three main types of three toed sloths, the pygmy three-toed sloth is critically endangered, and the maned sloth is vulnerable.",
+      "Deforestation caused by humans is the predominant reason three toed sloth populations are declining."
     ],
-    "Scientific Name": "Pongo abelii, Pongo pygmaeus",
-    "Conservation Status": "Critically Endangered (CR)",
-    "More Info": "https://www.worldwildlife.org/species/orangutan"
+    "Scientific Name": "Bradypus",
+    "Conservation Status": "Endangered (EN)",
+    "More Info": "https://www.worldwildlife.org/species/sloth"
   },
   "Giant Ground Sloth": {
     "Facts": [
-      "The largest sloth of all time, the Megatherium americanum, was the size of an elephant.",
-      "Asian elephants can be identified by their smaller, rounded ears. (An African elephant's ears resemble the continent of Africa.)",
-      "Elephant ears radiate heat to help keep these large animals cool, but sometimes that isn't enough. Elephants are fond of water and enjoy showering by sucking water into their trunks and spraying it all over themselves.",
-      "An elephant's trunk is actually a long nose with many functions. It is used for smelling, breathing, trumpeting, drinking, and also for grabbing things - especially a potential meal.",
-      "The Asian Elephant's trunk alone contains about 100,000 different muscles.",
-      "Elephants use their tusks to dig for roots and water, strip bark from trees, and even fight each other. Unfortunately their ivory has gotten them into a lot of trouble. Because ivory is so valuable to some humans, many elephants have been killed for their tusks. This trade is illegal today, but it has not been completely eliminated.",
-      "At birth, elephants already weigh some 200 pounds and stand about three feet tall.",
-      "As the world's largest land mammal, elephants have quite the commanding presence. But did you know elephants can't jump? Or that baby elephants lose their first set of teeth and tusks, just like humans?"
+      "The largest giant ground sloths were elephant-sized.",
+      "Most giant ground sloths walked on the sides of their feet.",
+      "Some species of giant ground sloths had armor plates - similar to a few modern animals such as armadillos and crocodiles.",
+      "For giant ground sloths, standing up on two limbs required extra stability. They would use their tails as an extra leg to support its considerable body weight.",
+      "Currently, four different species of Megalonyx (giant ground sloths) are recognized; the most famous, Megalonyx jeffersonii, was named in Thomas Jefferson's honor.",
+      "Scientists have long speculated that humans killed and devoured ground sloths—but, for many years, there was no physical evidence to support this idea. Then, in 2008, incriminating scars were found on the femur of an Ohio Megalonyx.",
+      "Imagine a sloth that’s trying hard to be a marine iguana. You’ve just pictured a member of the Thalassocnus genus - seagoing ground sloth.",
+      "Your average ground sloth was—in all likelihood—a browsing herbivore, pulling down tree branches with its strong forelimbs. However, the mylodontids may have also gathered food by digging for it.",
+      "The Caribbean islands seem like an unlikely place for ground sloths to have made their last stand—but that’s exactly where it happened. Mainland North America lost all of its indigenous species around 11,000 years ago, and half a millennium later, South America, too, became a ground sloth-free continent.",
+      "Megaloncus rodens was the last ground sloth standing: Radiocarbon dating indicates that this 200-pound vegetarian waddled across Cuba as recently as 4200 years ago."
     ],
-    "Scientific Name": "Elephas maximus indicus",
-    "Conservation Status": "Endangered (EN)",
-    "More Info": "https://www.worldwildlife.org/species/asian-elephant"
-  },
-  "Mylodon": {
-    "Facts": [
-      "The largest sloth of all time, the Megatherium americanum, was the size of an elephant.", 
-      "The Blue Whale's tongue alone can weigh as much as an elephant - its heart, as much as a car.",
-      "Despite being so massive, the blue whale feeds on some of the smallest marine life – tiny shrimp like animals called krill.",
-      "A single adult blue whale can consume 3,600 kilograms (7,900 lb) of krill a day.",
-      "Incredibly, Blue Whales are graceful swimmers who cruise the ocean at over 8km/h, and can reach speeds of over 30km/h."
-    ],
-    "Scientific Name": "Balaenoptera musculus",
-    "Conservation Status": "Endangered (EN)",
-    "More Info": "https://www.worldwildlife.org/species/blue-whale"
+    "Scientific Name": "Megatherium",
+    "Conservation Status": "Extinct (EX)",
+    "More Info": "https://www.slothsanctuary.com/about-sloths/giant-ground-sloth"
   }
 }
